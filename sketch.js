@@ -27,7 +27,6 @@ runner = createSprite(200,400)
 runner.addAnimation("runner",runnerImg)
 runner.scale=0.25
 runner.depth=5
-runner.debug = true
 runner.setCollider("rectangle",0,0,250,400)
 
 dog = createSprite(75,420) 
